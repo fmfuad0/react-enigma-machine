@@ -14,7 +14,7 @@ This project implements the **complete Enigma algorithm** in JavaScript includin
 ## 🚀 Live Demo
 
 🔗 **Try the Enigma Machine:**  
-👉 *(deploy link here)*
+👉 *(https://react-enigma-machine.netlify.app/)*
 
 ---
 

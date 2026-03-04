@@ -5,6 +5,7 @@ import Header from "./components/layout/Header.jsx";
 import MachineTab from "./components/machine/MachineTab.jsx";
 import TextTab from "./components/tabs/TextTab.jsx";
 import ConfigTab from "./components/tabs/ConfigTab.jsx";
+import Footer from "./components/layout/Footer.jsx";
 
 export default function App() {
     const [config, setConfig] = useState(DEFAULT_CONFIG);
@@ -109,6 +110,7 @@ export default function App() {
                             onReset={resetMachine} onClear={clearTape}/>}
             {activeTab === "text" && <TextTab config={config}/>}
             {activeTab === "config" && <ConfigTab config={config} onApplyPreset={applyPreset}/>}
+            <Footer/>
         </div>
     );
 }
